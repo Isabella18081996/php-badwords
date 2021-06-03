@@ -40,14 +40,14 @@ $parolaCensurata = "trentatré";
 <!-- paragrafo iniziale -->
   <div>
     <h1>Paragrafo iniziale: </h1><p><?php echo $paragrafo ?></p>
-    <h3>Lunghezza paragrafo: <span><?php echo strlen($paragrafo) . ' parole' ?></span></h3>
+    <h3>Lunghezza paragrafo: <span><?php echo strlen($paragrafo) . ' caratteri' ?></span></h3>
     <hr>
   </div>
 
 <!-- paragrafo con parole censurate in base alla parola che inserisce l'utente nella barra di URL con parola='valore da inserire' -->
 <div>
     <h1>Paragrafo modificato con la parola inserita dall'utente: </h1><p><?php echo $nuovoParagrafo ?></p>
-    <h3>Lunghezza nuovo paragrafo: <span><?php echo strlen($nuovoParagrafo) . ' parole' ?></span></h3>
+    <h3>Lunghezza nuovo paragrafo: <span><?php echo strlen($nuovoParagrafo) . ' caratteri' ?></span></h3>
     <h3>Parola censurata: <span><?php echo $parolaCensurataUtente ?></span></h3>
     <hr>
 </div>
@@ -55,7 +55,7 @@ $parolaCensurata = "trentatré";
 paragrafo con parola censurata dià di default perchè decisa da me -->
 <div>
     <h1>Paragrafo modificato con la parola già censurata di default: </h1><p><?php echo $nuovoParagrafoGiàCensurato ?></p>
-    <h3>Lunghezza nuovo paragrafo: <span><?php echo strlen($nuovoParagrafoGiàCensurato) . ' parole' ?></span></h3>
+    <h3>Lunghezza nuovo paragrafo: <span><?php echo strlen($nuovoParagrafoGiàCensurato) . ' caratteri' ?></span></h3>
     <h3>Parola censurata di default: <span><?php echo 'trentatré' ?></span></h3>
     <hr>
 </div>
